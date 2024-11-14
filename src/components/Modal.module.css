@@ -1,0 +1,254 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(47, 47, 47, 0.75);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 590px;
+  height: 187px;
+  border-radius: 6px;
+  background: #fff;
+  padding: 35px;
+}
+
+.modalHeading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 1.015px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.modalGrp {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.956px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.modalText {
+  width: 375px;
+  height: 35px;
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  color: #000;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.modalText::placeholder {
+  color: #979797;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.805px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.modalColor {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.956px;
+  padding-left: 30px;
+  padding-right: 20px;
+  position: relative;
+  bottom: 10px;
+}
+.colorButton {
+  cursor: pointer;
+}
+.colorButton:hover {
+  transform: translate3d(0px, -2px, 0px);
+}
+
+.modalCreate {
+  width: 154px;
+  height: 38px;
+  background: #16008B;
+  border-radius: 11px;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.7px;
+  position: relative;
+  top: 10px;
+  left: 450px;
+  cursor: pointer;
+}
+
+.modalBackgroundMobile {
+  width:100vw;
+  height: 100vh;
+  background: rgba(47, 47, 47, 0.75);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+}
+
+.modalContainerMobile {
+  height: 28vh; 
+  width: 85vw;
+  border-radius: 6px;
+  background: #fff;
+  padding-top: 30px ;
+  padding-left:20px;
+  
+}
+
+.modalHeadingMobile {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 1.015px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.modalGrpMobile {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.956px;
+  padding-left: 10px;
+}
+
+.modalTextMobile {
+  width: 250px;
+  height: 35px;
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.modalTextMobile::placeholder {
+  color: #979797;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.805px;
+  padding :10px;
+}
+
+.modalCreateMobile {
+  /* width: 180px; */
+  width:70%;
+  height: 38px;
+  display: block;
+  margin: 0px auto;
+  background: #16008B;
+  border-radius: 11px;
+  color:#FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+  border: 2px solid black;
+  /* margin:15%; */
+  position: relative;
+  top: 20px; 
+}
+
+
+.modalRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-bottom: 10px;
+  gap:3px;
+
+}
+
+.modalRowColor {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start;  */
+  margin-bottom: 20px;
+  padding-left:5px;
+  /* border:solid 2px black; */
+  gap: 20px;
+  padding-top: 3%;
+}
+
+.colorButtonsContainerMobile {
+  /* display: flex; */
+  gap: 3px;  
+  /* border: 2px black solid; */
+  align-items: center;  
+}
+
+.modalGrpMobile {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 160%;
+  /* flex: 1; */
+}
+
+.modalTextMobile {
+  width: 60%;
+  height: 35px;
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  color: #000;
+  margin:2px;
+}
+
+.modalColorMobile {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  /* line-height: 160%; */
+  /* flex: 1; */
+  margin-bottom: 5px;  
+  color: #000000;
+
+}
+
+.colorButtonMobile {
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.colorButton{
+  height: auto;
+}
