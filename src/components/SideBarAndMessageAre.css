@@ -120,7 +120,8 @@
 /* Message Area */
 .MessageAreaContainer {
   /* background: #f7ecdc; */
-  background: white;
+  background-color: #DAE5F5;
+  /* background: white; */
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
@@ -137,6 +138,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 .MessageAreaHeading {
