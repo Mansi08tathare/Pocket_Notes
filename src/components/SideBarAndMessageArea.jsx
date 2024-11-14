@@ -110,7 +110,7 @@ const SideBar = () => {
               <>
                 <div className="MessageAreaText">
                   <img src={banner} alt="banner" />
-                  <h2 className="MessageAreaHeading">PocketNotes</h2>
+                  <h2 className="MessageAreaHeading">Pocket Notes</h2>
                   <p className="MessageAreaDescription">
                     Send and receive messages without keeping your phone online.
                     <br /> Use Pocket Notes on up to 4 linked devices and 1 mobile phone
